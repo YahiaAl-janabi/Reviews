@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: rgb(159, 178, 194);
+  height: 100vh;
+  padding-top: 100px;
+}
+
+/* title */
+
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.title h2 {
+  color: rgb(23, 23, 71);
+  font-size: 2.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.title .underline {
+  width: 70px;
+  margin: 30px auto;
+  border-top: solid 5px rgb(57, 117, 185);
+}
+
+/* review */
+
+.review {
+  margin: 0 auto;
+  width: 30%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.review .img-container {
+  text-align: center;
+}
+
+.review .img-container #person-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.review #author {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 0.2rem;
+  font-size: 1.25rem;
+  color: rgb(23, 23, 71);
+}
+
+.review #job {
+  text-align: center;
+  padding: 20px;
+  padding-top: 0;
+  text-transform: uppercase;
+  color: rgb(57, 117, 185);
+}
+
+.review #info {
+  text-align: center;
+  line-height: 25px;
+}
+
+.review .button-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.review .button-container .prev-btn {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 10px;
+  color: rgb(57, 117, 185);
+  filter: brightness(1);
+  transition: 0.1s all;
+}
+
+.review .button-container .prev-btn:hover {
+  filter: brightness(1.75);
+}
+
+.review .button-container .next-btn {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 10px;
+  color: rgb(57, 117, 185);
+  filter: brightness(1);
+  transition: 0.1s all;
+}
+
+.review .button-container .next-btn:hover {
+  filter: brightness(1.75);
+}
+
+.review .random-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(57, 117, 185);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  transition: 0.1s all;
+  filter: brightness(1);
+}
+
+.review .random-btn:hover {
+  filter: brightness(1.75);
+}
+
+.review .random-btn:active {
+  transform: scale(0.9);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
